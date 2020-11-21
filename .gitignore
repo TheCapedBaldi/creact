@@ -1,0 +1,30 @@
+# IDE specific
+.idea
+.vscode
+
+# `yarn` or `npm`
+node_modules
+
+# Production ready serving folder
+build
+dist
+
+# Custom attributes for the folder
+.DS_Store
+
+# TAR Archive file
+*.tgz
+
+# Tests Snapshots
+src/components/*/tests/__snapshots__
+
+# Lerna Specific
+lerna-debug.log
+
+# NPM Specific
+npm-debug.log*
+.npm
+
+# Yarn Specific
+yarn-debug.log*
+yarn-error.log*
